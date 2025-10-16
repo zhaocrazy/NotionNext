@@ -63,7 +63,7 @@ const LayoutBase = props => {
     // 特殊简化布局，如果识别到路由中有 ?lite=true，则给网页添加一些自定义的css样式，例如背景改成黑色
     useEffect(() => {
         const isLiteMode = router.query.lite === 'true'
-        console.log(router.query.lite, isLiteMode)
+        console.log('Lite mode query param:', router.query.lite, 'isLiteMode:', isLiteMode)
         if (isLiteMode) {
             document.body.style.backgroundColor = 'black'
             document.body.style.color = 'white'
