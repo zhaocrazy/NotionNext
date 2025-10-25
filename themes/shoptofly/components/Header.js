@@ -73,7 +73,7 @@ export const Header = props => {
                 {enableClerk && (
                   <>
                     <SignedOut>
-                      <div className='hidden sm:flex gap-4'>
+                      <div className='hidden'>
                         <SmartLink
                           href={siteConfig('STARTER_NAV_BUTTON_1_URL', '')}
                           className={`loginBtn ${buttonTextColor} p-2 text-base font-medium hover:opacity-70`}>
@@ -93,7 +93,7 @@ export const Header = props => {
                   </>
                 )}
                 {!enableClerk && (
-                  <div className='hidden sm:flex gap-4'>
+                  <div className='hidden'>
                     <SmartLink
                       href={siteConfig('STARTER_NAV_BUTTON_1_URL', '')}
                       className={`loginBtn ${buttonTextColor} p-2 text-base font-medium hover:opacity-70`}>

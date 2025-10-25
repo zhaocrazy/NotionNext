@@ -11,12 +11,12 @@ export const Pricing = () => {
       {/* <!-- ====== Pricing Section Start --> */}
       <section
         id='pricing'
-        className='relative overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]'>
+        className='relative overflow-hidden bg-[#f6f1eb] pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]'>
         <div className='container mx-auto'>
           <div className='-mx-4 flex flex-wrap'>
             <div className='w-full px-4'>
               <div className='mx-auto mb-[60px] max-w-[510px] text-center'>
-                <span className='mb-2 block text-lg font-semibold text-primary'>
+                <span className='mb-2 block text-lg font-semibold text-[#2a4030]'>
                   {siteConfig('STARTER_PRICING_TITLE')}
                 </span>
                 <h2 className='mb-3 text-3xl font-bold text-dark dark:text-white sm:text-4xl md:text-[40px] md:leading-[1.2]'>
@@ -32,7 +32,7 @@ export const Pricing = () => {
           <div className='-mx-4 flex flex-wrap justify-center'>
             {/* 第一个付费计划 */}
             <div className='w-full px-4 md:w-1/2 lg:w-1/3'>
-              <div className='relative z-10 mb-10 overflow-hidden rounded-xl bg-white px-8 py-10 shadow-pricing dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10 xl:p-14'>
+              <div className='text-center relative z-10 mb-10 overflow-hidden rounded-xl bg-white px-8 py-10 shadow-pricing dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10 xl:p-14'>
                 <span className='mb-5 block text-xl font-medium text-dark dark:text-white'>
                   {siteConfig('STARTER_PRICING_1_TITLE')}
                 </span>
@@ -68,7 +68,7 @@ export const Pricing = () => {
                 </div>
                 <SmartLink
                   href={siteConfig('STARTER_PRICING_1_BUTTON_URL', '')}
-                  className='inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark'>
+                  className='inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-[#9bc459]'>
                   {siteConfig('STARTER_PRICING_1_BUTTON_TEXT')}
                 </SmartLink>
               </div>
@@ -76,7 +76,7 @@ export const Pricing = () => {
 
             {/* 第二个付费计划 */}
             <div className='w-full px-4 md:w-1/2 lg:w-1/3'>
-              <div className='relative z-10 mb-10 overflow-hidden rounded-xl bg-white px-8 py-10 shadow-pricing dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10 xl:p-14'>
+              <div className='text-center relative z-10 mb-10 overflow-hidden rounded-xl bg-white px-8 py-10 shadow-pricing dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10 xl:p-14'>
                 <p
                   style={{
                     writingMode: 'vertical-rl',
@@ -120,7 +120,7 @@ export const Pricing = () => {
                 </div>
                 <SmartLink
                   href={siteConfig('STARTER_PRICING_2_BUTTON_URL', '')}
-                  className='inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark'>
+                  className='inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-[#9bc459]'>
                   {siteConfig('STARTER_PRICING_2_BUTTON_TEXT')}
                 </SmartLink>
               </div>
@@ -128,7 +128,7 @@ export const Pricing = () => {
 
             {/* 第三个付费计划 */}
             <div className='w-full px-4 md:w-1/2 lg:w-1/3'>
-              <div className='relative z-10 mb-10 overflow-hidden rounded-xl bg-white px-8 py-10 shadow-pricing dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10 xl:p-14'>
+              <div className='text-center relative z-10 mb-10 overflow-hidden rounded-xl bg-white px-8 py-10 shadow-pricing dark:bg-dark-2 sm:p-12 lg:px-6 lg:py-10 xl:p-14'>
                 <span className='mb-5 block text-xl font-medium text-dark dark:text-white'>
                   {siteConfig('STARTER_PRICING_3_TITLE')}
                 </span>
@@ -164,7 +164,7 @@ export const Pricing = () => {
                 </div>
                 <SmartLink
                   href={siteConfig('STARTER_PRICING_3_BUTTON_URL', '')}
-                  className='inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-blue-dark'>
+                  className='inline-block rounded-md bg-primary px-7 py-3 text-center text-base font-medium text-white transition hover:bg-[#9bc459]'>
                   {siteConfig('STARTER_PRICING_3_BUTTON_TEXT')}
                 </SmartLink>
               </div>

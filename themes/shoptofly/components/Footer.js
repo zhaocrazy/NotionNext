@@ -15,7 +15,7 @@ export const Footer = props => {
     <>
       {/* <!-- ====== Footer Section Start --> */}
       <footer
-        className='wow fadeInUp relative z-10 bg-[#090E34] pt-20 lg:pt-[100px]'
+        className='wow fadeInUp relative z-10  bg-primary dark:bg-[#090E34] pt-20 lg:pt-[100px]'
         data-wow-delay='.15s'>
         <div className='container'>
           <div className='-mx-4 flex flex-wrap'>
@@ -51,7 +51,7 @@ export const Footer = props => {
                           <li key={i}>
                             <SmartLink
                               href={l.URL}
-                              className='mb-3 inline-block text-base text-gray-7 hover:text-primary'>
+                              className='mb-3 inline-block text-base text-gray-7 hover:text-[#9bc459]'>
                               {l.TITLE}
                             </SmartLink>
                           </li>
@@ -105,7 +105,7 @@ export const Footer = props => {
               <div className='w-full px-4 md:w-2/3 lg:w-1/2'>
                 <div className='my-1'>
                   <div className='-mx-3 flex items-center justify-center md:justify-start'>
-                    <SmartLink
+                    {/* <SmartLink
                       href={siteConfig('STARTER_FOOTER_PRIVACY_POLICY_URL', '')}
                       className='px-3 text-base text-gray-7 hover:text-white hover:underline'>
                       {siteConfig('STARTER_FOOTER_PRIVACY_POLICY_TEXT')}
@@ -125,8 +125,11 @@ export const Footer = props => {
                       {siteConfig(
                         'STARTER_FOOTER_PRIVACY_TERMS_OF_SERVICE_TEXT', ''
                       )}
-                    </SmartLink>
+                    </SmartLink> */}
+                    <p className='text-base text-gray-7'>Copyright © 2025 shoptofly</p>
                   </div>
+                 
+
                 </div>
               </div>
               <div className='w-full px-4 md:w-1/3 lg:w-1/2'>
