@@ -11,21 +11,21 @@ export const Brand = () => {
   return (
     <>
       {/* <!-- ====== Brands Section Start --> */}
-      <section className='py-20 dark:bg-dark'>
+      <section className='py-20 bg-[#f6f1eb] dark:bg-dark'>
         <div className='container px-4'>
-          <div className='-mx-4 flex flex-wrap items-center justify-center gap-8 xl:gap-11'>
+          <div className='-mx-4 flex flex-wrap items-center justify-center gap-8 xl:gap-11 overflow-hidden'>
             {brands?.map((item, index) => {
               return (
                 <a key={index} href={item.URL}>
                   <img
                     src={item.IMAGE}
                     alt={item.TITLE}
-                    className='dark:hidden'
+                    className='w-40 h-10 dark:hidden'
                   />
-                  <img
+                  <img 
                     src={item.IMAGE_WHITE}
                     alt={item.TITLE}
-                    className='hidden dark:block'
+                    className='w-40 h-10 hidden dark:block'
                   />
                 </a>
               )

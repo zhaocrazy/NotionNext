@@ -5,7 +5,7 @@ export const MadeWithButton = () => {
         <a
       target="_blank"
       rel="nofollow noopener noreferrer"
-      className="fixed bottom-8 left-4 z-[999] inline-flex items-center gap-[10px] rounded-lg bg-white px-[14px] py-2 shadow-2 dark:bg-dark-2 sm:left-9"
+      className="fixed bottom-8 left-4 z-[999] inline-flex items-center gap-[10px] rounded-lg bg-white px-[14px] py-2 shadow-2 dark:bg-[#9bc459] sm:left-9"
       href="https://tailgrids.com/"
     >
       <span className="text-base font-medium text-dark-3 dark:text-dark-6">

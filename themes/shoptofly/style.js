@@ -7,6 +7,12 @@
  */
 const Style = () => {
   return <style jsx global>{`
+   body{
+      background-color: #f6f1eb;
+   }
+  .bg-primary{background-color:#2a4030;} 
+  .text-primary{color:#2a4030 !important;}
+  .sticky .signUpBtn {background-color:#2a4030 !important;}
 
   #theme-starter .sticky{
     position: fixed;
@@ -51,7 +57,8 @@ const Style = () => {
   
   #theme-starter .sticky #navbarCollapse li > a:hover{
     --tw-text-opacity: 1;
-    color: rgb(55 88 249 / var(--tw-text-opacity));
+   //color: rgb(55 88 249 / var(--tw-text-opacity));
+    color:#9bc459;
     opacity: 1;
   }
 
@@ -67,7 +74,8 @@ const Style = () => {
   
   :is(.dark #theme-starter .sticky #navbarCollapse li > a:hover){
     --tw-text-opacity: 1;
-    color: rgb(55 88 249 / var(--tw-text-opacity));
+    //color: rgb(55 88 249 / var(--tw-text-opacity));
+    color:#9bc459;
   }
 
   :is(.dark #theme-starter .sticky #navbarCollapse li > button){
@@ -183,7 +191,8 @@ const Style = () => {
 .common-carousel .swiper-button-next:hover,
 .common-carousel .swiper-button-prev:hover{
   --tw-bg-opacity: 1;
-  background-color: rgb(55 88 249 / var(--tw-bg-opacity));
+  //background-color: rgb(55 88 249 / var(--tw-bg-opacity));
+  background-color:#9bc459;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   --tw-shadow: 0 0 #0000;

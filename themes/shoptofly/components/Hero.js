@@ -35,7 +35,7 @@ export const Hero = props => {
                     <li>
                       <SmartLink
                         href={siteConfig('STARTER_HERO_BUTTON_1_URL', '')}
-                        className='inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2 hover:text-body-color'>
+                        className='inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-[#9bc459] hover:text-body-color'>
                         {siteConfig('STARTER_HERO_BUTTON_1_TEXT', null, config)}
                       </SmartLink>
                     </li>
@@ -49,7 +49,7 @@ export const Hero = props => {
                           config
                         )}
                         target='_blank'
-                        className='flex items-center rounded-md bg-white/[0.12] px-6 py-[14px] text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark'
+                        className='flex items-center flex-wrap rounded-md pt-4 pb-4 pl-4 bg-white/[0.12]  text-base font-medium text-white transition duration-300 ease-in-out hover:bg-white hover:text-dark'
                         rel='noreferrer'>
                         {siteConfig(
                           'STARTER_HERO_BUTTON_2_ICON',
@@ -65,7 +65,7 @@ export const Hero = props => {
                             )}
                           />
                         )}
-                        {siteConfig('STARTER_HERO_BUTTON_2_TEXT', null, config)}
+                        <p>{siteConfig('STARTER_HERO_BUTTON_2_TEXT', null, config)}</p>
                       </SmartLink>
                     </li>
                   )}

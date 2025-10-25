@@ -30,7 +30,7 @@ export const About = () => {
 
                   <SmartLink
                     href={siteConfig('STARTER_ABOUT_BUTTON_URL', '')}
-                    className='inline-flex items-center justify-center rounded-md border border-primary bg-primary px-7 py-3 text-center text-base font-medium text-white hover:border-blue-dark hover:bg-blue-dark'>
+                    className='inline-flex items-center justify-center rounded-md border border-[#2a4030] bg-[#2a4030] px-7 py-3 text-center text-base font-medium text-white hover:border-[#9bc459] hover:bg-[#9bc459]'>
                     {siteConfig('STARTER_ABOUT_BUTTON_TEXT')}
                   </SmartLink>
                 </div>
@@ -44,7 +44,7 @@ export const About = () => {
                       <img
                         src={siteConfig('STARTER_ABOUT_IMAGE_1')}
                         alt='about image'
-                        className='h-full w-full object-cover object-center'
+                        className='h-full w-full object-contain object-center'
                       />
                     </div>
                   </div>
@@ -54,7 +54,7 @@ export const About = () => {
                       <img
                         src={siteConfig('STARTER_ABOUT_IMAGE_2')}
                         alt='about image'
-                        className='h-full w-full object-cover object-center'
+                        className='h-full w-full object-contain object-center'
                       />
                     </div>
 

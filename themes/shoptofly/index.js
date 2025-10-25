@@ -129,7 +129,7 @@ const LayoutIndex = props => {
         <>
           <Blog posts={posts} />
           <div className='container mx-auto flex justify-end mb-4'>
-            <SmartLink className='text-lg underline' href={'/archive'}>
+            <SmartLink className='hover:bg-[#9bc459] text-lg underline' href={'/archive'}>
               <span>{locale.COMMON.MORE}</span>
               <i className='ml-2 fas fa-arrow-right' />
             </SmartLink>
