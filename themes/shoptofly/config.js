@@ -24,6 +24,9 @@ const CONFIG = {
   STARTER_HERO_PREVIEW_IMAGE: '/images/shoptofly/hero/shoptofly1.png', // 产品预览图 ，默认读取public目录下图片
   STARTER_HERO_BANNER_IMAGE: '', // hero区下方的全宽图
 
+  SHOPTOFLY_TOP_WORD1: '🚀 11月-双11-免费技术咨询',   //优惠框1
+  SHOPTOFLY_TOP_WORD2: '🌍 11月-300以下功能-免费修改',  //优惠框2
+
   // 顶部右侧导航暗流
   STARTER_NAV_BUTTON_1_TEXT: 'Sign In',
   STARTER_NAV_BUTTON_1_URL: '/sign-in',
@@ -200,7 +203,7 @@ const CONFIG = {
   STARTER_TEAM_TITLE: '团队成员',
   STARTER_TEAM_TEXT_1: '我们的开发者团队',
   STARTER_TEAM_TEXT_2:
-    'ShopToFly由多位10年+资深跨境行业从业者，提供强有力的技术支持',
+    'ShopToFly由多位10年左右资深跨境行业从业者，提供强有力的技术支持',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   STARTER_TEAM_ITEMS: [
@@ -208,7 +211,7 @@ const CONFIG = {
       STARTER_TEAM_ITEM_AVATAR:
         '/images/shoptofly/team/team-01.png',
       STARTER_TEAM_ITEM_NICKNAME: '风犬',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Web项目经理'
+      STARTER_TEAM_ITEM_DESCRIPTION: '站长跨境风犬'
     },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/shoptofly/team/team-02.png',
@@ -304,11 +307,8 @@ const CONFIG = {
       TITLE: '关于我们',
       LINK_GROUP: [
         { TITLE: '官方主页', URL: '/#home' },
-        {
-          TITLE: '风犬博客',
-          URL: 'https://learnku.com/blog/zhaocrazy'
-        },
-        // { TITLE: '品牌故事', URL: 'https://docs.tangly1024.com/about' },
+        
+        // { TITLE: '品牌故事', URL: '/about' },
         // {
         //   TITLE: '帮助支持',
         //   URL: 'https://docs.tangly1024.com/article/how-to-question'
@@ -330,11 +330,11 @@ const CONFIG = {
       ]
     },
     {
-      TITLE: '项目案例',
+      TITLE: '友情链接', //项目案例
       LINK_GROUP: [
         {
-          TITLE: 'shopify项目',
-          URL: ''
+          TITLE: '站长以往博客',//shopify项目
+          URL: 'https://learnku.com/blog/zhaocrazy'
         },
         // {
         //   TITLE: 'API集成',

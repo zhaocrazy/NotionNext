@@ -10,6 +10,7 @@ import { useCallback, useEffect, useState } from 'react'
 import { DarkModeButton } from './DarkModeButton'
 import { Logo } from './Logo'
 import { MenuList } from './MenuList'
+import NoticeBar from './NoticeBar'
 
 /**
  * 顶部导航栏
@@ -46,16 +47,21 @@ export const Header = props => {
       // 控制台输出当前滚动位置和 sticky 值
       if (scrollY > 0) {
         ud_header?.classList?.add('sticky')
+        ud_header?.classList?.remove('top-8')
+        ud_header?.classList?.add('top-0')
       } else {
         ud_header?.classList?.remove('sticky')
+        ud_header?.classList?.add('top-8')
+        ud_header?.classList?.remove('top-0')
       }
     }, throttleMs)
   )
 
   return (
     <>
-      {/* <!-- ====== Navbar Section Start --> */}
-      <div className='ud-header absolute left-0 top-0 z-40 flex w-full items-center bg-transparent'>
+      <NoticeBar />  {/* 顶部公告栏 */}
+      {/* <!-- ====== Navbar Section Start --> */} 
+      <div className='ud-header absolute left-0 top-8 z-40 flex w-full items-center bg-transparent'>
         <div className='container'>
           <div className='relative -mx-4 flex items-center justify-between'>
             {/* Logo */}

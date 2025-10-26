@@ -72,7 +72,7 @@ const LayoutBase = props => {
 
     return (
         <div
-            id='theme-starter'
+            id='theme-shoptofly'
             className={`${siteConfig('FONT_STYLE')} min-h-screen flex flex-col dark:bg-[#212b36] scroll-smooth`}>
             <Style />
 
@@ -166,7 +166,7 @@ const LayoutSlug = props => {
       router.asPath.replace('?theme=landing', '')
     router.push(redirectUrl)
     return (
-      <div id='theme-starter'>
+      <div id='theme-shoptofly'>
         <Loading />
       </div>
     )

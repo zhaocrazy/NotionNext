@@ -14,7 +14,7 @@ const Style = () => {
   .text-primary{color:#2a4030 !important;}
   .sticky .signUpBtn {background-color:#2a4030 !important;}
 
-  #theme-starter .sticky{
+  #theme-shoptofly .sticky{
     position: fixed;
     z-index: 20;
     background-color: rgb(255 255 255 / 0.8);
@@ -25,60 +25,60 @@ const Style = () => {
     transition-duration: 150ms;
   }
   
-  :is(.dark #theme-starter .sticky){
+  :is(.dark #theme-shoptofly .sticky){
     background-color: rgb(17 25 40 / 0.8);
   }
   
-  #theme-starter .sticky {
+  #theme-shoptofly .sticky {
     -webkit-backdrop-filter: blur(5px);
             backdrop-filter: blur(5px);
     box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
   }
   
-  #theme-starter .sticky .navbar-logo{
+  #theme-shoptofly .sticky .navbar-logo{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
   }
   
-  #theme-starter .sticky #navbarToggler span{
+  #theme-shoptofly .sticky #navbarToggler span{
     --tw-bg-opacity: 1;
     background-color: rgb(17 25 40 / var(--tw-bg-opacity));
   }
   
-  :is(.dark #theme-starter .sticky #navbarToggler span){
+  :is(.dark #theme-shoptofly .sticky #navbarToggler span){
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
   
-  #theme-starter .sticky #navbarCollapse li > a{
+  #theme-shoptofly .sticky #navbarCollapse li > a{
     --tw-text-opacity: 1;
     color: rgb(17 25 40 / var(--tw-text-opacity));
   }
   
-  #theme-starter .sticky #navbarCollapse li > a:hover{
+  #theme-shoptofly .sticky #navbarCollapse li > a:hover{
     --tw-text-opacity: 1;
    //color: rgb(55 88 249 / var(--tw-text-opacity));
     color:#9bc459;
     opacity: 1;
   }
 
-  #theme-starter .sticky #navbarCollapse li > button{
+  #theme-shoptofly .sticky #navbarCollapse li > button{
     --tw-text-opacity: 1;
     color: rgb(17 25 40 / var(--tw-text-opacity));
   }
   
-  :is(.dark #theme-starter .sticky #navbarCollapse li > a){
+  :is(.dark #theme-shoptofly .sticky #navbarCollapse li > a){
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
   
-  :is(.dark #theme-starter .sticky #navbarCollapse li > a:hover){
+  :is(.dark #theme-shoptofly .sticky #navbarCollapse li > a:hover){
     --tw-text-opacity: 1;
     //color: rgb(55 88 249 / var(--tw-text-opacity));
     color:#9bc459;
   }
 
-  :is(.dark #theme-starter .sticky #navbarCollapse li > button){
+  :is(.dark #theme-shoptofly .sticky #navbarCollapse li > button){
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
@@ -87,53 +87,53 @@ const Style = () => {
     opacity: 0.7;
   }
   
-  #theme-starter .sticky #navbarCollapse li .ud-menu-scroll.active{
+  #theme-shoptofly .sticky #navbarCollapse li .ud-menu-scroll.active{
     --tw-text-opacity: 1;
     color: rgb(55 88 249 / var(--tw-text-opacity));
     opacity: 1;
   }
   
-  #theme-starter .sticky .loginBtn{
+  #theme-shoptofly .sticky .loginBtn{
     --tw-text-opacity: 1;
     color: rgb(17 25 40 / var(--tw-text-opacity));
   }
   
-  #theme-starter .sticky .loginBtn:hover{
+  #theme-shoptofly .sticky .loginBtn:hover{
     --tw-text-opacity: 1;
     color: rgb(55 88 249 / var(--tw-text-opacity));
     opacity: 1;
   }
   
-  :is(.dark #theme-starter .sticky .loginBtn){
+  :is(.dark #theme-shoptofly .sticky .loginBtn){
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
   
-  :is(.dark #theme-starter .sticky .loginBtn:hover){
+  :is(.dark #theme-shoptofly .sticky .loginBtn:hover){
     --tw-text-opacity: 1;
     color: rgb(55 88 249 / var(--tw-text-opacity));
   }
   
-  #theme-starter .sticky .signUpBtn{
+  #theme-shoptofly .sticky .signUpBtn{
     --tw-bg-opacity: 1;
     background-color: rgb(55 88 249 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
   
-  #theme-starter .sticky .signUpBtn:hover{
+  #theme-shoptofly .sticky .signUpBtn:hover{
     --tw-bg-opacity: 1;
     background-color: rgb(27 68 200 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
   
-  #theme-starter .sticky #themeSwitcher ~ span{
+  #theme-shoptofly .sticky #themeSwitcher ~ span{
     --tw-text-opacity: 1;
     color: rgb(17 25 40 / var(--tw-text-opacity));
   }
   
-  :is(.dark #theme-starter .sticky #themeSwitcher ~ span){
+  :is(.dark #theme-shoptofly .sticky #themeSwitcher ~ span){
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }

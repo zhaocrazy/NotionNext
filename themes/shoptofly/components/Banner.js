@@ -19,7 +19,7 @@ export const Banner = ({ title, description }) => {
                   {description}
                 </p>
 
-                {/* <ul className="flex items-center justify-center gap-[10px]">
+                {<ul className="flex items-center justify-center gap-[10px]">
                 <li>
                   <a
                     href="index.html"
@@ -37,7 +37,7 @@ export const Banner = ({ title, description }) => {
                     Blog Details
                   </a>
                 </li>
-              </ul> */}
+              </ul> }
               </div>
             </div>
           </div>
