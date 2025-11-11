@@ -10,7 +10,7 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '跨境电商技术服务引擎,助力中小型卖家业务起飞', // 英雄区文字
+  STARTER_HERO_TITLE_1: '面向跨境卖家的 Shopify + WordPress 技术服务 & 中台/ERP SaaS 提供者', // 英雄区文字
   STARTER_HERO_TITLE_2: '加入ShopToFly社区,获取更多跨境资讯、教程、技术支持', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
@@ -305,10 +305,8 @@ const CONFIG = {
   STARTER_FOOTER_LINK_GROUP: [
     {
       TITLE: '关于我们',
-      LINK_GROUP: [
-        { TITLE: '官方主页', URL: '/#home' },
-        
-        // { TITLE: '品牌故事', URL: '/about' },
+      LINK_GROUP: [    
+        { TITLE: '关于本站', URL: '/article/2991c968-562f-801a-a86a-d565e6cd988f' },
         // {
         //   TITLE: '帮助支持',
         //   URL: 'https://docs.tangly1024.com/article/how-to-question'
